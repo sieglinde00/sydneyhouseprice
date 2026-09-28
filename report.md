@@ -193,10 +193,10 @@ ML provides a consistent learned rule but depends on representative data. The LL
 
 The local Streamlit app loads the saved preprocessing and model together, ensuring new properties receive the transformations learned during training. It accepts a form or CSV containing the seven predictive fields, limits descriptions to 24 words, and returns an AUD estimate. Unknown optional values remain missing until preprocessing handles them.
 
-The saved model in models\housing.joblib was fed to streamlit. The web app was coded in app.py. Launch it from the project folder with:
+The saved model in models/housing.joblib was fed to streamlit. The web app was coded in app.py. Launch it from the project folder with:
 
 ```powershell
-.\.venv\Scripts\python.exe -m streamlit run app.py
+./.venv/Scripts/python.exe -m streamlit run app.py
 ```
 
 Choose **Single property**, enter known features, and press **Estimate sale price**. Alternatively, select **Upload CSV**, download and populate the template.
