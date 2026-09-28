@@ -1,0 +1,2 @@
+best_model,n_total,n_development,n_test,OOF_MAE,text_ablation_MAE,test_metrics_MAE,test_metrics_RMSE,test_metrics_R2,test_metrics_MAPE_pct,dummy_test_metrics_MAE,dummy_test_metrics_RMSE,dummy_test_metrics_R2,dummy_test_metrics_MAPE_pct
+Random forest,105,84,21,400232.1129161023,394689.2525564238,396932.03913546127,631753.6884985925,0.7924951823021879,19.374085646668394,973885.7142857143,1493569.3865304524,-0.15980083896110298,58.24776909752476
